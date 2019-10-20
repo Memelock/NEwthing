@@ -1337,7 +1337,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1302953529}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3c144b6b3e102c840ac7871c32601767, type: 3}
+  m_Script: {fileID: 11500000, guid: ca6cf99b9c127e9429cd7335b351ba2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   EventName: 
@@ -2388,7 +2388,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2070074243}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb46045ece3de4b408ff2e29c6046736, type: 3}
+  m_Script: {fileID: 11500000, guid: 2ee2fee9861bbb44fa9b5f0be4090944, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   ArchGood: {fileID: 1302953529}
@@ -2522,21 +2522,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b4a64d34a6273244841a99bde5e707d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scenario: {fileID: 11400000, guid: 3a27105b13aba7b4aa3091f7c0947bef, type: 2}
   title: {fileID: 794386166}
   description: {fileID: 1688926036}
   btn1Title: {fileID: 1745163236}
   btn2Title: {fileID: 912946830}
-  EventList:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}

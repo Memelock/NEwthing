@@ -6,23 +6,15 @@ using TMPro;
 
 public class EventDisplay : MonoBehaviour
 {
-    public EventMaker scenario;
+   // public EventMaker scenario;
 
     public TextMeshProUGUI title;
     public TextMeshProUGUI description;
     public TextMeshProUGUI btn1Title;
     public TextMeshProUGUI btn2Title;
 
-    public List<EventMaker> EventList;
-    // Start is called before the first frame update
-<<<<<<< Updated upstream
-    void Start()
-    {
-        
-    }
+  //  public List<EventMaker> EventList;
 
-    
-=======
     void Start()
     {
         CreateEvent();
@@ -59,5 +51,5 @@ public class EventDisplay : MonoBehaviour
          }
   
     }
->>>>>>> Stashed changes
+
 }
