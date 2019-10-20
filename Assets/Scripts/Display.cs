@@ -7,14 +7,16 @@ using TMPro;
 public class Display : MonoBehaviour
 {
     public GameObject ArchGood;
+    private SpinTheWheel Spin;
     public TextMeshProUGUI nameText;
     public TextMeshProUGUI Cost;
 
     void Start()
     {
 
-        nameText.text = gameObject.GetComponent<EventName>();
-        Cost.text = ArchGood.Cost.ToString();
+        Spin = gameObject.GetComponent<SpinTheWheel>();
+        nameText.text = Spin.EventName;
+        Cost.text = Spin.Cost.ToString();
 
     }
 
