@@ -12,11 +12,25 @@ public class EventDisplay : MonoBehaviour
     public TextMeshProUGUI description;
     public TextMeshProUGUI btn1Title;
     public TextMeshProUGUI btn2Title;
+
+    public List<EventMaker> EventList;
     // Start is called before the first frame update
     void Start()
     {
-        title.text = scenario.eventName;
+        Call();
     }
 
-    // Update is called once per frame
+    void Call()
+    {
+        for (int i = 0; i < EventList.Count;)
+        {
+            scenario = EventList[i];
+            title.text = scenario.text;
+            
+            if(Input.GetKeyDown(KeyCode.Space))
+            {
+                i++;
+            }
+        }
+    }
 }
