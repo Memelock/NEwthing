@@ -9,28 +9,28 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: 845e97a4541ada849ac7209db70f4605, type: 3}
   m_Name: scenario4
   m_EditorClassIdentifier: Assembly-CSharp::EventMaker
-  eventName: Overpopulation of Orphans
-  eventDescription: You have destroyed another orphanage to make room for yourr high-rises.
-    What shall you do with the orphans?
+  eventName: tt3st4
+  eventDescription: test4
+  eventNum: 0
   artwork: {fileID: 0}
-  btn1Name: Send them to the mines!
+  btn1Name: test4
   btn1DeltaMD: 0
   btn1DeltaPol: 0
   btn1DeltaWC: 0
-  btn1DeltaMC: 5
+  btn1DeltaMC: 0
   btn1DeltaRE: 0
   btn1DeltaGW: 0
   btn1DeltaProfit: 0
-  btn1DeltaDeaths: 15
-  btn2Name: Send them to McDoogles
-  btn2DeltaMD: 5
+  btn1DeltaDeaths: 0
+  btn2Name: test4
+  btn2DeltaMD: 0
   btn2DeltaPol: 0
   btn2DeltaWC: 0
   btn2DeltaMC: 0
   btn2DeltaRE: 0
   btn2DeltaGW: 0
   btn2DeltaProfit: 0
-  btn2DeltaDeaths: 30
+  btn2DeltaDeaths: 0

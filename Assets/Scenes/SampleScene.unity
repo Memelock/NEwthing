@@ -2527,3 +2527,16 @@ MonoBehaviour:
   description: {fileID: 1688926036}
   btn1Title: {fileID: 1745163236}
   btn2Title: {fileID: 912946830}
+  EventList:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}

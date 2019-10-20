@@ -9,27 +9,28 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: 845e97a4541ada849ac7209db70f4605, type: 3}
   m_Name: scenario1
   m_EditorClassIdentifier: Assembly-CSharp::EventMaker
-  eventName: Tax the Twoots!
-  eventDescription: Lobby to pass a law that taxes all Twoots?
+  eventName: testname
+  eventDescription: tes1
+  eventNum: 0
   artwork: {fileID: 0}
-  btn1Name: Yes
+  btn1Name: test1
   btn1DeltaMD: 0
-  btn1DeltaPol: -5
+  btn1DeltaPol: 0
   btn1DeltaWC: 0
   btn1DeltaMC: 0
   btn1DeltaRE: 0
-  btn1DeltaGW: -5
-  btn1DeltaProfit: 10000
+  btn1DeltaGW: 0
+  btn1DeltaProfit: 0
   btn1DeltaDeaths: 0
-  btn2Name: No
+  btn2Name: test1
   btn2DeltaMD: 0
-  btn2DeltaPol: 5
+  btn2DeltaPol: 0
   btn2DeltaWC: 0
   btn2DeltaMC: 0
   btn2DeltaRE: 0
-  btn2DeltaGW: 5
+  btn2DeltaGW: 0
   btn2DeltaProfit: 0
   btn2DeltaDeaths: 0

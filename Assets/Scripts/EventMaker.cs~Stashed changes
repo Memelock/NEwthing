@@ -7,7 +7,7 @@ public class EventMaker : ScriptableObject
 {
     public string eventName;
     public string eventDescription;
-
+    public int eventNum;
 
     public Sprite artwork;
 
