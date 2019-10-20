@@ -15,6 +15,9 @@ public class SpinTheWheel : MonoBehaviour
     public int deltaMC;  //Mining company
     public int deltaRE;  //Real estate
     public int deltaPI;  //Personal image
+    public Display display;
+   
+
     public void WheelSpin()
     {
     int Wheel = Random.Range(0, 3) + 1;
@@ -55,11 +58,11 @@ public class SpinTheWheel : MonoBehaviour
                 Debug.Log("Rec");
                 break;
 
-
+                
 
         }
-            
-
+        
+        display.Yeet(EventName, Cost);
 
 }
 

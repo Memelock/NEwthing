@@ -10,15 +10,15 @@ public class Display : MonoBehaviour
     private SpinTheWheel Spin;
     public TextMeshProUGUI nameText;
     public TextMeshProUGUI Cost;
-
-    void Start()
+    public string EventName;
+        public int Price;
+ 
+    public void Yeet(string EventName,int Price)
     {
-
-        Spin = gameObject.GetComponent<SpinTheWheel>();
-        nameText.text = Spin.EventName;
-        Cost.text = Spin.Cost.ToString();
-
+       // Spin = gameObject.GetComponent<SpinTheWheel>();
+        Debug.Log("Why");
+        nameText.text = EventName;
+        Cost.text = Price.ToString();
     }
-
-   
+  
 }
