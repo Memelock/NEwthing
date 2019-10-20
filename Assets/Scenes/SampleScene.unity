@@ -2392,7 +2392,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb46045ece3de4b408ff2e29c6046736, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  card: {fileID: 11400000, guid: 5c52df00be89b504a816d552faaab7af, type: 2}
+  ArchGood: {fileID: 0}
   nameText: {fileID: 593265992}
   Cost: {fileID: 1705518054}
 --- !u!114 &1612853803
@@ -3604,7 +3604,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb46045ece3de4b408ff2e29c6046736, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  card: {fileID: 11400000, guid: 0b4bf03b71db6694686d35f9d9a184c6, type: 2}
+  ArchGood: {fileID: 1302953529}
   nameText: {fileID: 485050810}
   Cost: {fileID: 1436930574}
 --- !u!114 &2070074246
