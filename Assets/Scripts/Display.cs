@@ -13,8 +13,7 @@ public class Display : MonoBehaviour
     void Start()
     {
 
-        nameText.text = gameObject.GetComponent<EventName>();
-        Cost.text = ArchGood.Cost.ToString();
+        
 
     }
 

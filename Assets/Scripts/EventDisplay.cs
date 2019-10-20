@@ -17,20 +17,8 @@ public class EventDisplay : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Call();
+        
     }
 
-    void Call()
-    {
-        for (int i = 0; i < EventList.Count;)
-        {
-            scenario = EventList[i];
-            title.text = scenario.text;
-            
-            if(Input.GetKeyDown(KeyCode.Space))
-            {
-                i++;
-            }
-        }
-    }
+    
 }
