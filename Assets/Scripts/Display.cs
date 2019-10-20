@@ -6,15 +6,15 @@ using TMPro;
 
 public class Display : MonoBehaviour
 {
-    public Card card;
+    public GameObject ArchGood;
     public TextMeshProUGUI nameText;
     public TextMeshProUGUI Cost;
 
     void Start()
     {
 
-        nameText.text = card.name;
-        Cost.text = card.Cost.ToString();
+        nameText.text = gameObject.GetComponent<EventName>();
+        Cost.text = ArchGood.Cost.ToString();
 
     }
 

@@ -631,7 +631,7 @@ GameObject:
   - component: {fileID: 178697148}
   - component: {fileID: 178697147}
   m_Layer: 5
-  m_Name: Roulet wheel
+  m_Name: RouletWheel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1941,7 +1941,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c144b6b3e102c840ac7871c32601767, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  card: {fileID: 0}
+  EventName: 
+  Cost: 0
+  deltaMD: 0
+  deltaPol: 0
+  deltaWC: 0
+  deltaMC: 0
+  deltaRE: 0
+  deltaPI: 0
 --- !u!114 &1302953532
 MonoBehaviour:
   m_ObjectHideFlags: 0
