@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Data : MonoBehaviour
 {
@@ -15,7 +16,6 @@ public class Data : MonoBehaviour
     public int weeks = 0;
     public int actions = 0;
 
-  
     public void newGame()
     {
         profit = 0;

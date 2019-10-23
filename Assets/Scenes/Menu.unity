@@ -237,8 +237,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.00011316925, y: 204.85197}
-  m_SizeDelta: {x: 328.45, y: 103.4}
+  m_AnchoredPosition: {x: 0.00011316925, y: 182.8}
+  m_SizeDelta: {x: 328.5, y: 147.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &233894934
 MonoBehaviour:
@@ -271,9 +271,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'CEO-Ulator
-
-'
+  m_Text: Good Deeds Inc.
 --- !u!222 &233894935
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -459,8 +457,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 4050273695720440628, guid: fe73ef016df4d5346a7a21104a8e5b72,
+    type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -588,8 +587,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 4050273695720440628, guid: fe73ef016df4d5346a7a21104a8e5b72,
+    type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -817,7 +817,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 3929453942698372637, guid: fe73ef016df4d5346a7a21104a8e5b72,
+    type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1015,17 +1016,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ced0a868ee152224684766728b89babe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EventMaker:
-  - {fileID: 11400000, guid: 04d601464809a8942b91e95c44877809, type: 2}
-  - {fileID: 11400000, guid: 1248fb59562996d45af8469483ef3d5e, type: 2}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
 --- !u!4 &2074843785
 Transform:
   m_ObjectHideFlags: 0
